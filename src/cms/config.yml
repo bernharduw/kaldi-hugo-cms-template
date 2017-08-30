@@ -19,6 +19,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
+    folder: "site/content/page"
+    create: "true"
     files:
       - file: "site/content/products.md"
         label: "Products Page"
